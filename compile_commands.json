@@ -1,48 +1,62 @@
 [
 {
-  "directory": "D:\\Projects\\algo\\calgo\\builddir",
-  "command": "gcc -Isrc\\\\calgo.exe.p -Isrc -I..\\\\src -Iinclude -I..\\\\include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -MD -MQ src/calgo.exe.p/main.c.obj -MF src\\\\calgo.exe.p\\\\main.c.obj.d -o src/calgo.exe.p/main.c.obj -c ../src/main.c",
+  "directory": "/home/naufal/Projects/algo_c/builddir",
+  "command": "cc -Isrc/calgo.p -Isrc -I../src -Iinclude -I../include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O0 -g -MD -MQ src/calgo.p/main.c.o -MF src/calgo.p/main.c.o.d -o src/calgo.p/main.c.o -c ../src/main.c",
   "file": "../src/main.c",
-  "output": "src/calgo.exe.p/main.c.obj"
+  "output": "src/calgo.p/main.c.o"
 },
 
 {
-  "directory": "D:\\Projects\\algo\\calgo\\builddir",
-  "command": "gcc -Isrc\\\\calgo.exe.p -Isrc -I..\\\\src -Iinclude -I..\\\\include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -MD -MQ src/calgo.exe.p/str_algo.c.obj -MF src\\\\calgo.exe.p\\\\str_algo.c.obj.d -o src/calgo.exe.p/str_algo.c.obj -c ../src/str_algo.c",
+  "directory": "/home/naufal/Projects/algo_c/builddir",
+  "command": "cc -Isrc/calgo.p -Isrc -I../src -Iinclude -I../include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O0 -g -MD -MQ src/calgo.p/str_algo.c.o -MF src/calgo.p/str_algo.c.o.d -o src/calgo.p/str_algo.c.o -c ../src/str_algo.c",
   "file": "../src/str_algo.c",
-  "output": "src/calgo.exe.p/str_algo.c.obj"
+  "output": "src/calgo.p/str_algo.c.o"
 },
 
 {
-  "directory": "D:\\Projects\\algo\\calgo\\builddir",
-  "command": "gcc -Isrc\\\\calgo.exe.p -Isrc -I..\\\\src -Iinclude -I..\\\\include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -MD -MQ src/calgo.exe.p/trivial_lineptr.c.obj -MF src\\\\calgo.exe.p\\\\trivial_lineptr.c.obj.d -o src/calgo.exe.p/trivial_lineptr.c.obj -c ../src/trivial/lineptr.c",
+  "directory": "/home/naufal/Projects/algo_c/builddir",
+  "command": "cc -Isrc/calgo.p -Isrc -I../src -Iinclude -I../include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O0 -g -MD -MQ src/calgo.p/trivial_lineptr.c.o -MF src/calgo.p/trivial_lineptr.c.o.d -o src/calgo.p/trivial_lineptr.c.o -c ../src/trivial/lineptr.c",
   "file": "../src/trivial/lineptr.c",
-  "output": "src/calgo.exe.p/trivial_lineptr.c.obj"
+  "output": "src/calgo.p/trivial_lineptr.c.o"
 },
 
 {
-  "directory": "D:\\Projects\\algo\\calgo\\builddir",
-  "command": "gcc -Isrc\\\\libstralgo.a.p -Isrc -I..\\\\src -Iinclude -I..\\\\include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -MD -MQ src/libstralgo.a.p/str_algo.c.obj -MF src\\\\libstralgo.a.p\\\\str_algo.c.obj.d -o src/libstralgo.a.p/str_algo.c.obj -c ../src/str_algo.c",
+  "directory": "/home/naufal/Projects/algo_c/builddir",
+  "command": "cc -Isrc/libstralgo.a.p -Isrc -I../src -Iinclude -I../include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O0 -g -fPIC -MD -MQ src/libstralgo.a.p/str_algo.c.o -MF src/libstralgo.a.p/str_algo.c.o.d -o src/libstralgo.a.p/str_algo.c.o -c ../src/str_algo.c",
   "file": "../src/str_algo.c",
-  "output": "src/libstralgo.a.p/str_algo.c.obj"
+  "output": "src/libstralgo.a.p/str_algo.c.o"
 },
 
 {
-  "directory": "D:\\Projects\\algo\\calgo\\builddir",
-  "command": "gcc -Itest\\\\str_algo.exe.p -Itest -I..\\\\test -Iinclude -I..\\\\include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -MD -MQ test/str_algo.exe.p/str_algo_test.c.obj -MF test\\\\str_algo.exe.p\\\\str_algo_test.c.obj.d -o test/str_algo.exe.p/str_algo_test.c.obj -c ../test/str_algo_test.c",
+  "directory": "/home/naufal/Projects/algo_c/builddir",
+  "command": "cc -Isrc/libtrivial.a.p -Isrc -I../src -Iinclude -I../include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O0 -g -fPIC -MD -MQ src/libtrivial.a.p/trivial_lineptr.c.o -MF src/libtrivial.a.p/trivial_lineptr.c.o.d -o src/libtrivial.a.p/trivial_lineptr.c.o -c ../src/trivial/lineptr.c",
+  "file": "../src/trivial/lineptr.c",
+  "output": "src/libtrivial.a.p/trivial_lineptr.c.o"
+},
+
+{
+  "directory": "/home/naufal/Projects/algo_c/builddir",
+  "command": "cc -Itest/str_algo.p -Itest -I../test -Iinclude -I../include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O0 -g -MD -MQ test/str_algo.p/str_algo_test.c.o -MF test/str_algo.p/str_algo_test.c.o.d -o test/str_algo.p/str_algo_test.c.o -c ../test/str_algo_test.c",
   "file": "../test/str_algo_test.c",
-  "output": "test/str_algo.exe.p/str_algo_test.c.obj"
+  "output": "test/str_algo.p/str_algo_test.c.o"
 },
 
 {
-  "directory": "D:\\Projects\\algo\\calgo\\builddir",
-  "command": "gcc -Isrc\\\\calgo.exe.p -Isrc -I..\\\\src -Iinclude -I..\\\\include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -MD -MQ src/calgo.exe.p/main.c.obj -MF src\\\\calgo.exe.p\\\\main.c.obj.d -c ..\\\\include\\\\str\\\\str_algo.h",
-  "file": "..\\include\\str\\str_algo.h"
+  "directory": "/home/naufal/Projects/algo_c/builddir",
+  "command": "cc -Itest/trivial.p -Itest -I../test -Iinclude -I../include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O0 -g -MD -MQ test/trivial.p/trivial_test.c.o -MF test/trivial.p/trivial_test.c.o.d -o test/trivial.p/trivial_test.c.o -c ../test/trivial_test.c",
+  "file": "../test/trivial_test.c",
+  "output": "test/trivial.p/trivial_test.c.o"
 },
 
 {
-  "directory": "D:\\Projects\\algo\\calgo\\builddir",
-  "command": "gcc -Isrc\\\\calgo.exe.p -Isrc -I..\\\\src -Iinclude -I..\\\\include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -MD -MQ src/calgo.exe.p/main.c.obj -MF src\\\\calgo.exe.p\\\\main.c.obj.d -c ..\\\\include\\\\trivial\\\\lineptr.h",
-  "file": "..\\include\\trivial\\lineptr.h"
+  "directory": "/home/naufal/Projects/algo_c/builddir",
+  "command": "cc -Isrc/calgo.p -Isrc -I../src -Iinclude -I../include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O0 -g -MD -MQ src/calgo.p/main.c.o -MF src/calgo.p/main.c.o.d -c ../include/str/str_algo.h",
+  "file": "../include/str/str_algo.h"
+},
+
+{
+  "directory": "/home/naufal/Projects/algo_c/builddir",
+  "command": "cc -Isrc/calgo.p -Isrc -I../src -Iinclude -I../include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O0 -g -MD -MQ src/calgo.p/main.c.o -MF src/calgo.p/main.c.o.d -c ../include/trivial/lineptr.h",
+  "file": "../include/trivial/lineptr.h"
 }
 ]

@@ -16,10 +16,12 @@ int main(int argc, char** argv) {
     // --
     const char* test1_needle_2 = "ello";
     int result1_2 = stridx(test1_haystack, test1_needle_2);
+    print_result(result1_2);
     assert(result1_2 == 1);
-    // --
+    // // --
     const char* test1_needle_3 = "world";
     int result1_3 = stridx(test1_haystack, test1_needle_3);
+    print_result(result1_3);
     assert(result1_3 == 6);
 
     return 0;
